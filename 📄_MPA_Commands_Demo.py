@@ -2,8 +2,8 @@ import streamlit as st
 import time
 from PIL import Image
 
-corgi = Image.open("page-link/kevin.jpg")
-corgi2 = Image.open("page-link/kevin2.jpg")
+corgi = Image.open("kevin.jpg")
+corgi2 = Image.open("kevin2.jpg")
 
 st.title("🎮&nbsp; MPA `st.page_link` Demo")
 st.subheader("", divider="rainbow")

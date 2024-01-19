@@ -5,7 +5,7 @@ from urllib.parse import quote
 import altair as alt
 import pandas as pd
 
-# st.set_page_config(page_title="GitHub Issues Summary", page_icon="📊")
+st.set_page_config(page_title="GitHub Issues Summary", page_icon="📊")
 
 with st.sidebar:
     # st.subheader("Select a page:")

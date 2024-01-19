@@ -13,10 +13,10 @@ PATH_TO_ISSUES = (
     pathlib.Path(PATH_OF_SCRIPT).parent.joinpath(DEFAULT_ISSUES_FOLDER).resolve()
 )
 
-# st.set_page_config(
-#     page_title="Open Issues",
-#     page_icon="🗃",
-# )
+st.set_page_config(
+    page_title="Open Issues",
+    page_icon="🗃",
+)
 
 
 # Paginate through all open issues in the streamlit/streamlit repo
