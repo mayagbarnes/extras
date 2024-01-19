@@ -18,7 +18,7 @@ with st.sidebar:
     with st.spinner("Regular `st.spinner` Spinner..."):
         time.sleep(3)
 
-with open("page-link/requirements.txt") as requirements:
+with open("requirements.txt") as requirements:
     s3_url = requirements.read().split("\n")[-1]
 
 col1, padding, col2 = st.columns([3, 0.1, 1])

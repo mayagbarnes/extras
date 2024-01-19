@@ -7,7 +7,7 @@ def get_scripts(fork=None, branch=None, headers={}):
     if fork is None:
         fork = "streamlit"
     if branch is None:
-        branch = "page-link"
+        branch = "main"
 
     response = requests.get(
         f"https://api.github.com/repos/{fork}/streamlit/contents/e2e/scripts?ref={branch}",
@@ -68,7 +68,7 @@ def select_script(branch, pr_number, auth={}):
 
 
 def render_script_selector(scripts):
-    default_script_option = [{"name": "Default script", "path": "page-link/default_script.py"}]
+    default_script_option = [{"name": "Default script", "path": "default_script.py"}]
     options = default_script_option + scripts
     return st.selectbox(
         "Select E2E script",
