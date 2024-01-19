@@ -1,1 +1,23 @@
- https://core-previews.s3-us-west-2.amazonaws.com/develop-preview/streamlit-1.24.1-py2.py3-none-any.whl
+streamlit_ace
+st-execbox
+bokeh
+matplotlib
+graphviz
+seaborn
+plotly
+pandas
+numpy
+bokeh
+plotly
+altair
+matplotlib
+seaborn
+pydeck
+streamlit-extras
+pytz
+vega_datasets
+ghapi
+stqdm
+psutil
+pokebase
+https://core-previews.s3-us-west-2.amazonaws.com/pr-7965/streamlit-1.30.0-py2.py3-none-any.whl
